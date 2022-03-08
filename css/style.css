@@ -33,7 +33,7 @@ h1 {
     text-transform: capitalize;
     line-height: 1.1;
     font-size: 3rem;
-    margin-bottom: 0.75rem; /*talvez*/
+    margin-bottom: 0.75rem;
 }
 
 p {
@@ -109,10 +109,15 @@ img {
 
 .container {
     max-width: auto;
+    height: 80vh;
     margin: 0 auto;
     padding: 0 30px;
     display: flex;
     flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+.text {
     text-align: center;
 }
 
@@ -121,6 +126,7 @@ img {
 }
 
 .btn {
+    text-transform: capitalize;
     font-weight: bold;
     color: var(--white);
     background-color: var(--orange);
@@ -167,12 +173,16 @@ img {
 
     .container {
         max-width: 1100px;
+        height: 80vh;
         margin: 0 auto;
         padding: 0 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
+    }
+    
+    .text {
         text-align: left;
     }
 
